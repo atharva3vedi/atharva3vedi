@@ -1,72 +1,47 @@
-# hi, i'm Atharva Trivedi 👋
-
-<!-- satori:start -->
-```jsx
-// This React component gets compiled to SVG via satori
-export default function Banner() {
-  return (
-    <div style={{
-      display: 'flex', flexDirection: 'column',
-      background: 'linear-gradient(135deg, #0f0f0f, #1a1a2e)',
-      width: 800, height: 200, padding: 40,
-      fontFamily: 'sans-serif', color: '#fff',
-      borderRadius: 16
-    }}>
-      <h1 style={{ fontSize: 40, margin: 0, fontWeight: 700 }}>
-        your name
-      </h1>
-      <p style={{ fontSize: 18, opacity: 0.7, marginTop: 8 }}>
-        full-stack dev · open source · coffee-driven
-      </p>
-    </div>
-  )
-}
-```
-<!-- satori:end -->
-<!-- satori:output banner.svg -->
+<img src="banner.svg" alt="atharva banner" width="100%"/>
 
 ---
 
 ## about me
 
-- 🌱 learning **Agentic end to end systems**
-- 💬 ask me about **My cat**
-- 📫 reach me at **atharva.3vedi@gmail.com**
+- 🔭 building things with **Langchain**, **React**, and whatever seems interesting
+- 🤖 into **AI/ML** —Agentic Systems, LLMs, robotics
+- 🐳 comfortable with **Docker**, REST APIs, and full-stack web
+- 📍 **Pune** · **GlobalLogic-Hitachi**
 
 ---
 
 ## tech stack
 
-<!-- satori:start -->
-```jsx
-// Tech stack grid compiled by satori
-export default function TechStack() {
-  const techs = ['React','Node.js','TypeScript','PostgreSQL','Docker','Python']
-  return (
-    <div style={{ display:'flex', flexWrap:'wrap', gap:12, padding:20 }}>
-      {techs.map(t => (
-        <div key={t} style={{
-          background:'#1e1e2e', color:'#cdd6f4',
-          padding:'8px 16px', borderRadius:8,
-          fontSize:14, fontFamily:'monospace'
-        }}>{t}</div>
-      ))}
-    </div>
-  )
-}
-```
-<!-- satori:end -->
-<!-- satori:output techstack.svg -->
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+
+---
+
+## projects
+
+| project | what it does |
+|---|---|
+| [algojudge](https://github.com/atharva3vedi/algojudge) | leetcode clone · django-rest backend + react frontend |
+| [ragbot-ver3v](https://github.com/atharva3vedi/ragbot-ver3v) | RAG chatbot · pinecone + latest LLM stack |
+| [2048docker](https://github.com/atharva3vedi/2048docker) | 2048 game deployed on docker |
+| [flipkart-robotics](https://github.com/atharva3vedi/flipkart-robotics) | flipkart G.R.I.D. 6 robotics challenge solution |
+| [travelbot](https://github.com/atharva3vedi/travelbot) | travel assistant bot |
+| [videohelper](https://github.com/atharva3vedi/videohelper) | video utility tool |
 
 ---
 
 ## github stats
 
-![stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight)
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=atharva3vedi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=atharva3vedi&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
+</p>
 
 ---
 
-## connect
-
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+*made with curiosity*
