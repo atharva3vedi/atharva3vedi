@@ -1,0 +1,46 @@
+<svg width="680" height="380" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <radialGradient id="r1" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#7c3aed" stop-opacity="0.6"/><stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+  <radialGradient id="r2" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#0891b2" stop-opacity="0.55"/><stop offset="100%" stop-color="#0891b2" stop-opacity="0"/></radialGradient>
+  <radialGradient id="r3" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#be185d" stop-opacity="0.5"/><stop offset="100%" stop-color="#be185d" stop-opacity="0"/></radialGradient>
+  <clipPath id="rc"><rect width="680" height="380" rx="16"/></clipPath>
+</defs>
+<rect width="680" height="380" rx="16" fill="#06060f"/>
+<g clip-path="url(#rc)">
+  <ellipse cx="100" cy="180" rx="220" ry="180" fill="url(#r1)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;60,40;-30,60;40,-40;0,0" dur="12s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </ellipse>
+  <ellipse cx="580" cy="200" rx="200" ry="170" fill="url(#r2)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-50,30;40,-50;-30,60;0,0" dur="10s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </ellipse>
+  <ellipse cx="340" cy="370" rx="250" ry="120" fill="url(#r3)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;30,-50;-60,20;50,-30;0,0" dur="14s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </ellipse>
+</g>
+
+<text x="40" y="42" font-family="'Times New Roman', Times, serif" font-size="13" fill="#94a3b8" letter-spacing="2">PROJECTS</text>
+
+<rect x="40" y="56" width="290" height="80" rx="10" fill="#0d0d1a" stroke="#6366f1" stroke-width="0.8"/>
+<text x="58" y="82" font-family="'Times New Roman', Times, serif" font-size="16" font-weight="700" fill="#a5b4fc">algojudge</text>
+<text x="58" y="106" font-family="sans-serif" font-size="12" fill="#64748b">leetcode clone · Django · React · PostgreSQL</text>
+
+<rect x="350" y="56" width="290" height="80" rx="10" fill="#0d0d1a" stroke="#06b6d4" stroke-width="0.8"/>
+<text x="368" y="82" font-family="'Times New Roman', Times, serif" font-size="16" font-weight="700" fill="#67e8f9">ragbot-ver3v</text>
+<text x="368" y="106" font-family="sans-serif" font-size="12" fill="#64748b">RAG chatbot · LangChain · Pinecone · OpenAI</text>
+
+<rect x="40" y="152" width="290" height="80" rx="10" fill="#0d0d1a" stroke="#10b981" stroke-width="0.8"/>
+<text x="58" y="178" font-family="'Times New Roman', Times, serif" font-size="16" font-weight="700" fill="#6ee7b7">2048docker</text>
+<text x="58" y="202" font-family="sans-serif" font-size="12" fill="#64748b">2048 game deployed on Docker</text>
+
+<rect x="350" y="152" width="290" height="80" rx="10" fill="#0d0d1a" stroke="#f97316" stroke-width="0.8"/>
+<text x="368" y="178" font-family="'Times New Roman', Times, serif" font-size="16" font-weight="700" fill="#fdba74">flipkart-robotics</text>
+<text x="368" y="202" font-family="sans-serif" font-size="12" fill="#64748b">Flipkart G.R.I.D. 6 · CV · Robotics</text>
+
+<rect x="40" y="248" width="290" height="80" rx="10" fill="#0d0d1a" stroke="#a855f7" stroke-width="0.8"/>
+<text x="58" y="274" font-family="'Times New Roman', Times, serif" font-size="16" font-weight="700" fill="#d8b4fe">travelbot</text>
+<text x="58" y="298" font-family="sans-serif" font-size="12" fill="#64748b">AI-powered travel assistant · LLM</text>
+
+<rect x="350" y="248" width="290" height="80" rx="10" fill="#0d0d1a" stroke="#ec4899" stroke-width="0.8"/>
+<text x="368" y="274" font-family="'Times New Roman', Times, serif" font-size="16" font-weight="700" fill="#f9a8d4">videohelper</text>
+<text x="368" y="298" font-family="sans-serif" font-size="12" fill="#64748b">video utility tool · Python</text>
+</svg>
