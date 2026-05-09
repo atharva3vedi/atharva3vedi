@@ -1,4 +1,4 @@
-# hi, i'm [your name] 👋
+# hi, i'm Atharva Trivedi 👋
 
 <!-- satori:start -->
 ```jsx
@@ -29,10 +29,9 @@ export default function Banner() {
 
 ## about me
 
-- 🔭 currently working on **[your project]**
-- 🌱 learning **[technology]**
-- 💬 ask me about **[your expertise]**
-- 📫 reach me at **[your email]**
+- 🌱 learning **Agentic end to end systems**
+- 💬 ask me about **My cat**
+- 📫 reach me at **atharva.3vedi@gmail.com**
 
 ---
 
@@ -42,7 +41,7 @@ export default function Banner() {
 ```jsx
 // Tech stack grid compiled by satori
 export default function TechStack() {
-  const techs = ['React','Node.js','TypeScript','PostgreSQL','Docker','Rust']
+  const techs = ['React','Node.js','TypeScript','PostgreSQL','Docker','Python']
   return (
     <div style={{ display:'flex', flexWrap:'wrap', gap:12, padding:20 }}>
       {techs.map(t => (
