@@ -1,50 +1,26 @@
-<svg width="680" height="220" viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg">
+<svg width="680" height="200" viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <radialGradient id="b1" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#a855f7" stop-opacity="0.85"/>
-    <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
-  </radialGradient>
-  <radialGradient id="b2" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8"/>
-    <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
-  </radialGradient>
-  <radialGradient id="b3" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#f97316" stop-opacity="0.75"/>
-    <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
-  </radialGradient>
-  <radialGradient id="b4" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#ec4899" stop-opacity="0.7"/>
-    <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
-  </radialGradient>
-  <radialGradient id="b5" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.6"/>
-    <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
-  </radialGradient>
-  <clipPath id="clip">
-    <rect width="680" height="220" rx="14"/>
-  </clipPath>
+  <radialGradient id="n1" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#a855f7" stop-opacity="0.9"/><stop offset="100%" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
+  <radialGradient id="n2" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#06b6d4" stop-opacity="0.85"/><stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/></radialGradient>
+  <radialGradient id="n3" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ec4899" stop-opacity="0.75"/><stop offset="100%" stop-color="#ec4899" stop-opacity="0"/></radialGradient>
+  <radialGradient id="n4" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#f97316" stop-opacity="0.7"/><stop offset="100%" stop-color="#f97316" stop-opacity="0"/></radialGradient>
+  <clipPath id="nc"><rect width="680" height="200" rx="16"/></clipPath>
 </defs>
-
-<rect width="680" height="220" rx="14" fill="#080812"/>
-<g clip-path="url(#clip)">
-  <ellipse cx="120" cy="100" rx="180" ry="160" fill="url(#b1)">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 60,30; -20,50; 40,-30; 0,0" dur="9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+<rect width="680" height="200" rx="16" fill="#06060f"/>
+<g clip-path="url(#nc)">
+  <ellipse cx="100" cy="90" rx="200" ry="170" fill="url(#n1)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;70,30;-30,60;50,-40;0,0" dur="10s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
   </ellipse>
-  <ellipse cx="520" cy="80" rx="200" ry="150" fill="url(#b2)">
-    <animateTransform attributeName="transform" type="translate" values="0,0; -50,40; 30,-20; -40,60; 0,0" dur="11s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  <ellipse cx="580" cy="60" rx="210" ry="160" fill="url(#n2)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-60,50;40,-30;-50,70;0,0" dur="12s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
   </ellipse>
-  <ellipse cx="340" cy="200" rx="220" ry="130" fill="url(#b3)">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 40,-50; -60,20; 20,40; 0,0" dur="13s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  <ellipse cx="340" cy="180" rx="240" ry="120" fill="url(#n3)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;40,-60;-70,30;30,50;0,0" dur="14s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
   </ellipse>
-  <ellipse cx="600" cy="190" rx="160" ry="120" fill="url(#b4)">
-    <animateTransform attributeName="transform" type="translate" values="0,0; -30,-40; 50,30; -20,-50; 0,0" dur="10s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
-  </ellipse>
-  <ellipse cx="80" cy="190" rx="140" ry="110" fill="url(#b5)">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 50,-30; -20,60; 30,-40; 0,0" dur="8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  <ellipse cx="560" cy="180" rx="160" ry="110" fill="url(#n4)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-40,-50;60,20;-20,-60;0,0" dur="9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
   </ellipse>
 </g>
-
-<text x="48" y="98" font-family="sans-serif" font-size="52" font-weight="700" fill="#ffffff" opacity="0.97" letter-spacing="-1">atharva</text>
-<text x="50" y="138" font-family="monospace" font-size="15" fill="#e2e8f0" opacity="0.75">full-stack dev · AI/ML · python · react · docker</text>
-<text x="50" y="168" font-family="monospace" font-size="13" fill="#94a3b8" opacity="0.6">hitachi · pune, india</text>
+<text x="50" y="105" font-family="'Times New Roman', Times, serif" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="1" opacity="0.97">Atharva Trivedi</text>
+<text x="52" y="148" font-family="'Times New Roman', Times, serif" font-size="18" fill="#cbd5e1" opacity="0.7" font-style="italic">coding for the fun of it · pune, india</text>
 </svg>
